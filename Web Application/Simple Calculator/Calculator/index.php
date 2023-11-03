@@ -1,3 +1,5 @@
+<!-- This code is made by SM Sultan. -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,7 +38,10 @@
                         echo "<br>Result is = ",$a*$b;
                         break;
                     case "div":
-                        echo "<br>Result is = ",$a/$b;
+                        if($b==0)
+                            echo "Can't not divided by 0.<br>";
+                        else
+                            echo "<br>Result is = ",$a/$b;
                         break;
                     case "pow":
                         echo "<br>Result is = ",$a**$b;
@@ -44,7 +49,7 @@
                 }
             }
         }
-        else echo"You must be enter two value";
+        else echo"You must be enter two number.";
     }
         else{
             echo"<br>You must be select an operator.<br>";
