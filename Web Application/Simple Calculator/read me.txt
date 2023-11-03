@@ -1,0 +1,14 @@
+procedure to run this application:
+1. Must have to create a server, here i use XAMPP application to create local server. You can your own choice server.
+2. In xampp folder we can find a folder called htdocs. Create a folder in your own choice. such as I create folder name Calculator.
+3. Keep this code in index.php file inside your folder. I'll keep in Calculator folder.
+4. Start Apache server in your XAMPP application or what ever you want.
+5. Now open a browser type adderss of this file in your server. here I'll type localhost/Calculator/index.php
+6. Here you can use this application.
+
+
+
+for any help you can contuct me on 
+facebook https://fb.com/smsultan76
+Whatsapp https://wa.me/qr/H2PWW6KM65U4B1
+Messenger https://m.me/smsultan76
