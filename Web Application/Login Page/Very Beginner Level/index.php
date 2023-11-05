@@ -19,7 +19,7 @@
         $user = $_POST["Username"];
         $pass = $_POST["Password"];
         if($user == "smsultan76" && $pass == "BD123"){
-            header("Location: WC.php");
+            header("Location: welcome.php");
         }
         else{
             echo "Incorrect username or password.<br>";
