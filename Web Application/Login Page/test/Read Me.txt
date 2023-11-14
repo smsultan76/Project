@@ -1,0 +1,18 @@
+-It just a login form. Simple login form.
+-Here password hashing not used.
+
+To run this project follow step.
+1. Download all file like this foldering order.
+2. keep files in htdocs folder in your XAMPP folder.(I used XAMPP as my server).
+3. create database name: "test".
+4. create table name:"login".
+5. add this two column must "username" & "password".
+6. now add data (username & password) on your table.
+7. now serve index.php in your browser.
+8. enjoy😊😊
+
+
+For any help or suggetion:
+    Facebook: http://fb.com/smsultan76
+    Github: http://github.com/smsultan76
+    Whatsapp: http://wa.me/+8801723332972
