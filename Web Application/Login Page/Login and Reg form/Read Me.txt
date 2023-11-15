@@ -1,0 +1,21 @@
+-It just a login form And Registration form. For Begainer level login and Registration form.
+-Here password hashing used.
+-This is not 100% bug free.
+-just learnig perpuses.
+
+
+To run this project follow step.
+1. Download all file like this foldering order.
+2. keep files in htdocs folder in your XAMPP folder.(I used XAMPP as my server).
+3. create database name: "project".
+4. create table name:"logins".
+5. add this three column must "username" ,"email" & "password". don't add extra table if you are Begainer! else you can.
+6. now serve index.php in your browser.
+7. First you need to Registration. Then you can login.
+8. enjoy😊😊
+
+
+For any help or suggetion:
+    Facebook: http://fb.com/smsultan76
+    Github: http://github.com/smsultan76
+    Whatsapp: http://wa.me/+8801723332972
