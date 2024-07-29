@@ -1,1 +1,32 @@
 A simple school Management project
+
+-It is a simple Student management project
+-It has to login form
+	1. Admin login also register in one button
+	1. Student login
+-An admin can show all student data, add new student data, delete student data, edit student data
+-Here has 3 department called 'cse', 'eee', 'ce'
+-An admin can manage all data.
+-If a added in database by an admin then he/she can see his all information and others.
+-Here password hashing used.
+-This is not 100% bug free.
+-just learning purposes.
+
+
+To run this project follow step.
+**** first create a database name project ****
+****Export sql file down bellow inside project database.****
+1. Download all file like this foldering order.
+2. keep files in htdocs folder(SMS folder) in your XAMPP folder.(I used XAMPP as my server).
+3. create database name: "project".
+4. create table name:"logins".
+5. add this three column must "username" ,"email" & "password". don't add extra table if you are Begainer! else you can.
+6. now serve index.php in your browser.
+7. First you need to Registration. Then you can login.
+8. enjoy😊😊
+
+
+For any help or suggestion:
+    Facebook: http://fb.com/smsultan76
+    GitHub: http://github.com/smsultan76
+    WhatsApp: http://wa.me/+8801723332972
