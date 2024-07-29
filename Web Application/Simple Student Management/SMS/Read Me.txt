@@ -1,12 +1,19 @@
--It just a login form And Registration form. For Begainer level login and Registration form.
+-It is a simple Student management project
+-It has to login form
+	1. Admin login also register in one button
+	1. Student login
+-An admin can show all student data, add new student data, delete student data, edit student data
+-Here has 3 department called 'cse', 'eee', 'ce'
+-An admin can manage all data.
+-If a added in database by an admin then he/she can see his all information and others.
 -Here password hashing used.
 -This is not 100% bug free.
--just learnig perpuses.
+-just learning purposes.
 
 
 To run this project follow step.
 1. Download all file like this foldering order.
-2. keep files in htdocs folder in your XAMPP folder.(I used XAMPP as my server).
+2. keep files in htdocs folder(SMS folder) in your XAMPP folder.(I used XAMPP as my server).
 3. create database name: "project".
 4. create table name:"logins".
 5. add this three column must "username" ,"email" & "password". don't add extra table if you are Begainer! else you can.
@@ -15,13 +22,7 @@ To run this project follow step.
 8. enjoy😊😊
 
 
-For any help or suggetion:
+For any help or suggestion:
     Facebook: http://fb.com/smsultan76
-    Github: http://github.com/smsultan76
-    Whatsapp: http://wa.me/+8801723332972
-
-
-
-
-
-CREATE TABLE `project`.`class9` (`SL` INT NOT NULL AUTO_INCREMENT , `roll` INT NOT NULL , `firstname` TEXT NOT NULL , `lastname` TEXT NOT NULL , `fname` TEXT NOT NULL , `mname` TEXT NOT NULL , `regn` INT NOT NULL , `phone` INT NOT NULL , `email` TEXT NOT NULL , `address` TEXT NOT NULL , `session` INT NOT NULL , `addate` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`SL`)) ENGINE = InnoDB;
+    GitHub: http://github.com/smsultan76
+    WhatsApp: http://wa.me/+8801723332972
