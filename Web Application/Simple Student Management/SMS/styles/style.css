@@ -1,0 +1,252 @@
+
+body{
+    margin-top: 115px;
+    margin-left: -370px;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.department {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.department h3 {
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.department img {
+    width: 60%;
+    display: block;
+    margin: 20px 0 0 150px;
+    border-radius: 8px 8px 0 0;
+}
+
+.department-description {
+    padding: 20px;
+    color: #908e8e;
+    background-color: #f9f9f9;
+}
+h3 pre{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    color:blueviolet;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+header h2{
+    color: white;
+    font-size: 29px;
+    margin-left: 45px;
+}
+header .navigation a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    margin-left: 35px;
+}
+header .navigation a::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background: white;
+    transform: scaleX(0);
+    transition: 0.5s;
+}
+header .navigation a:hover:after{
+    transform: scaleX(1);
+}
+#crossbtn{
+    background: transparent;
+    position: absolute;
+    top: 0;
+    right: -45px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 35px;
+    font-size: 25px;
+    color: red;
+}
+#stdlog{
+    border: 2px solid black;
+    margin: 0;
+    display: none;
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    background-color: aquamarine;
+    font-family: cursive;
+    padding: 18px;
+    width: 400px;
+    height: inherit;
+    border-radius: 12px;
+    text-align: center;
+}
+#stdlog form{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#stdlog form input{
+    width: 98%;
+    height: 45px;
+    margin-top: 5px;
+    font-size: large;
+    border: 2px solid rgb(189, 189, 189);
+    margin-bottom: 25px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#stdlog form input:hover{
+    border: 2px solid green;
+}
+#stdlog form select{
+    /* background-color: red; */
+    height: 35px;
+    padding: 7px 15px;
+    border-radius: 8px;
+}
+#stdlog form input[type="submit"]{
+    width: 100%;
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+#stdlog form input[type="submit"]:hover{
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+
+}
+#Pip,#Pips{
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    margin-left: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    transition: .5s;
+}
+#Pip:hover,#Pips:hover{
+    background-color: white;
+    color: blue;
+}       
+#Popup{
+    display: none;
+    position: absolute;
+    right: 80px;
+    top: 100px;
+}
+.Pipin{
+    height: 500px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.Pipin h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+.Pipin{
+    padding: 5%;
+    font-size: 19px;
+}
+.Pipin .ip{
+    width: 100%;
+    height: 42px;
+    border-radius: 7px;
+    padding-left: 6px;
+    margin: 10px 0 13px 0;
+    border: none;
+    transition: 1s;
+}
+.Pipin .ip:focus{
+    border: 2px solid blue;
+}
+.Pipin .ip:hover{
+    background-color: rgb(169, 224, 248);
+    border: 2px solid blue;
+}
+.Pipin #Li,#regbtn{
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+    margin: 10px 0px 13px 0;
+    background-color: rgb(69, 112, 252);
+    font-size: 22px;
+    color: white;
+    border-radius: 7px;
+    border: 2px solid rgb(156, 82, 245);
+    transition: 1s;
+}
+.Pipin #Li:hover{
+    background-color: white;
+    border: 2px solid blue;
+    color: black;
+}
+.Pipin #regbtn:hover{
+    background-color: white;
+    border: 2px solid blue;
+    color: black;
+}
+.Pipin #Forget{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 8px 0;
+}
+.Pipin #Forget a{
+    text-decoration: none;
+}
+#Forget a:hover{
+    text-decoration: underline;
+}
+.Pipin a{
+    text-decoration: none;
+    margin: 8px 0 8px 0;
+}
+.Pipin a:hover{
+    text-decoration: underline;
+}
