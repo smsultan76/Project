@@ -1,0 +1,58 @@
+# Instruction for Setting Up and Running the PHP MySQL Project
+
+## Step-by-step Guide:
+
+1. **Download and Extract the Project**:
+   - Download the project ZIP file from the repository and extract it to your local machine.
+
+2. **Set Up Your Local Server**:
+   - Ensure you have a local server like XAMPP, WAMP, or MAMP installed.
+   - Start the Apache and MySQL services.
+
+3. **Copy Project Files**:
+   - Copy the extracted project folder to your server's root directory:
+     - For XAMPP: `C:/xampp/htdocs/`
+     - For WAMP: `C:/wamp/www/`
+
+4. **Create a MySQL Database**:
+   - Open your web browser and go to `http://localhost/phpmyadmin/`.
+   - Create a new database with a name, e.g., `bookstore_db`.
+   - Import the SQL file included in the project (`boi.sql`) into the newly created database.
+
+5. **Configure Database Connection**: 
+   - Open the project folder and find the `connect.php` file.
+   - Update the database connection details:
+     ```php
+     $servername = "localhost";
+     $username = "root"; // Your MySQL username
+     $password = ""; // Your MySQL password (leave empty if none)
+     $dbname = "bookstore_db"; // The name of your database
+     ```
+
+6. **Run the Project**:
+   - Open your web browser and navigate to `http://localhost/project_folder_name/`.
+   - first you have to add book from seller menu in header.
+   - You should see the web application home page.
+
+7. **User and Seller Account Creation**:
+   - Users can register through the **User Panel** to start browsing and adding books to their cart.
+   - Sellers can sign up via the **Seller Panel** to manage book listings.
+
+8. **Troubleshooting**:
+   - If you encounter any errors, ensure your server is running, and double-check your database credentials in the configuration file.
+   - Check for PHP extensions (e.g., `mysqli`) that need to be enabled in the `php.ini` file of your server.
+
+## That's it! 🎉 Enjoy exploring the Book Selling Web Application and stay tuned for future updates!
+
+
+
+For any help or suggestion contuct me freely:
+    Facebook: http://fb.com/smsultan76
+    GitHub: http://github.com/smsultan76
+    WhatsApp: http://wa.me/+8801723332972
+    Linkedin: https://www.linkedin.com/in/smsultan76
+
+
+
+
+#BookSellingApp #WebApplication #PHPProject #MySQL #FullStackDevelopment #BookStoreApp #OnlineBookStore #WebDev #OpenSource #CodeProject #BookStoreWebsite #SellBooksOnline #WebAppDevelopment #BookLovers #ECommerceApp #CodingCommunity #WebProject #PHPDevelopment #MySQLDatabase #WebDesign #DeveloperLife #CodeSharing #OpenSourceProject #Programming #TechCommunity #PHPMySQL #DigitalBooks #ReadingCommunity #SoftwareDevelopment #TechProject
