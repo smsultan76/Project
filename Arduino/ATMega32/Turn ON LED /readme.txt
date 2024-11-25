@@ -1,7 +1,10 @@
-Open microchip stdio for avr program:
-run code and get hex file from your created prject locaton on microchip stdio.
+instruction guide:
+-Open microchip stdio for avr program:
+-Create new project with GCC/C executable project.
+-run code and get hex file from your prject locaton.( Example: document/Atmel Stdio/your_project_name/your_project_name/debug/your_project_name.hex )
 
-simulate Atmega32 with an LED in protious app. 
+-import hex file on Atmega32 configuration program pannel.
+-simulate Atmega32 with an LED in protious app. (like given image)
 then run that file.
 # enjoy😊😊
 
